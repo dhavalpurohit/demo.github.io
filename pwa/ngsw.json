@@ -1,0 +1,77 @@
+{
+  "configVersion": 1,
+  "index": "https://github.com/dhavalpurohit/demo.github.io.git/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://github.com/dhavalpurohit/demo.github.io.git/favicon.ico",
+        "https://github.com/dhavalpurohit/demo.github.io.git/index.html",
+        "https://github.com/dhavalpurohit/demo.github.io.git/main.4bd6e99155b354a5491c.js",
+        "https://github.com/dhavalpurohit/demo.github.io.git/polyfills.e254f6b9bf511460eb6d.js",
+        "https://github.com/dhavalpurohit/demo.github.io.git/runtime.ec2944dd8b20ec099bf3.js",
+        "https://github.com/dhavalpurohit/demo.github.io.git/styles.eeeea2a162b44aeb9140.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://github.com/dhavalpurohit/demo.github.io.git/assets/icons/icon-128x128.png",
+        "https://github.com/dhavalpurohit/demo.github.io.git/assets/icons/icon-144x144.png",
+        "https://github.com/dhavalpurohit/demo.github.io.git/assets/icons/icon-152x152.png",
+        "https://github.com/dhavalpurohit/demo.github.io.git/assets/icons/icon-192x192.png",
+        "https://github.com/dhavalpurohit/demo.github.io.git/assets/icons/icon-384x384.png",
+        "https://github.com/dhavalpurohit/demo.github.io.git/assets/icons/icon-512x512.png",
+        "https://github.com/dhavalpurohit/demo.github.io.git/assets/icons/icon-72x72.png",
+        "https://github.com/dhavalpurohit/demo.github.io.git/assets/icons/icon-96x96.png",
+        "https://github.com/dhavalpurohit/demo.github.io.git/assets/images/11.jpg",
+        "https://github.com/dhavalpurohit/demo.github.io.git/assets/images/12.jpg",
+        "https://github.com/dhavalpurohit/demo.github.io.git/assets/images/13.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://github.com/dhavalpurohit/demo.github.io.git/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://github.com/dhavalpurohit/demo.github.io.git/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://github.com/dhavalpurohit/demo.github.io.git/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://github.com/dhavalpurohit/demo.github.io.git/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://github.com/dhavalpurohit/demo.github.io.git/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://github.com/dhavalpurohit/demo.github.io.git/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://github.com/dhavalpurohit/demo.github.io.git/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://github.com/dhavalpurohit/demo.github.io.git/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://github.com/dhavalpurohit/demo.github.io.git/assets/images/11.jpg": "de98d26f57ab1ea5ffaef9e6aca17a9f2ebecdab",
+    "https://github.com/dhavalpurohit/demo.github.io.git/assets/images/12.jpg": "8f0a885973445d9fa8f71a7c1842d6403a97491d",
+    "https://github.com/dhavalpurohit/demo.github.io.git/assets/images/13.jpg": "3ca10eee825138c9f8cc92cdac23ab389d7feb82",
+    "https://github.com/dhavalpurohit/demo.github.io.git/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://github.com/dhavalpurohit/demo.github.io.git/index.html": "64bad61a9f68ba68a7560f2bd9f218d556654678",
+    "https://github.com/dhavalpurohit/demo.github.io.git/main.4bd6e99155b354a5491c.js": "2bc59c41db95877a9646af74952148923f671061",
+    "https://github.com/dhavalpurohit/demo.github.io.git/polyfills.e254f6b9bf511460eb6d.js": "6946e10a03311677a01490b8e91741668e64e17e",
+    "https://github.com/dhavalpurohit/demo.github.io.git/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://github.com/dhavalpurohit/demo.github.io.git/styles.eeeea2a162b44aeb9140.css": "73c3d7ae640d18d04bd54c36946f6a7247341a42"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
