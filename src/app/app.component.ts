@@ -1,10 +1,25 @@
-import { Component } from '@angular/core';
+import { Component,ChangeDetectorRef, EventEmitter, Output, OnInit } from '@angular/core';
+import { MediaMatcher } from '@angular/cdk/layout';
+import { MatSidenav } from '@angular/material';
+import { SwUpdate } from "@angular/service-worker";
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
   title = 'pwa';
+
+  constructor( changeDetectorRef: ChangeDetectorRef, media: MediaMatcher, private swUpdate: SwUpdate) {}
+  
+  ngOnInit(){
+    if(this.swUpdate.isEnabled){
+      this.swUpdate.available.subscribe( () =>{
+        if(confirm("New version available. Load New version?")){
+          window.location.reload();
+        }
+      });
+    }
+  }
 }

@@ -1,0 +1,14 @@
+@font-face{
+  font-family: Roboto Light,Robot Bold, Roboto Regular;
+    src: url(/assets/Roboto_fonts/Roboto-Light.ttf) format("opentype");
+    src: url(/assets/Roboto_fonts/Roboto-Bold.ttf) format("opentype");
+    src: url(/assets/Roboto_fonts/Roboto-Regular.ttf) format("opentype");
+}
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif, Roboto;
+}
+
+a {
+  color: #00B7FF;
+}
